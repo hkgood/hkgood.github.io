@@ -18,12 +18,31 @@
         box-shadow: none !important;
         width: auto !important;
       }
-    </style>
-  </head>
+    body {
+      background: linear-gradient(to bottom, #add8e6, #f0f0f0); /* 淡蓝色到非常淡的淡灰色渐变 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* 占满整个屏幕高度 */
+      margin: 0; /* 去掉默认外边距 */
+    }
 
-  <body>
-    <div style = "height: 500">
-      <img src="./img/logo.png">
-    </div>
-  </body>
+    div {
+      height: 100vh; /* 占满整个屏幕高度 */
+      display: flex; /* 使用 flexbox 布局 */
+      justify-content: center; /* 水平居中 */
+      align-items: center; /* 垂直居中 */
+    }
+
+    img {
+      width: 300px; /* 图片宽度 */
+      height: 300px; /* 图片高度 */
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="./img/logo.png">
+  </div>
+</body>
 </html>
