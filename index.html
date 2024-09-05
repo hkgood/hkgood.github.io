@@ -21,10 +21,24 @@
     </style>
 </head>
 <body>
-  <div style="height: 100vh;">
-    <div style="padding-right: 20px;"><img style="width: 300px; height: 300px;" src="./img/logo.png" /></div>
-    <div style="text-align: left;"><img style="width: 79px; height: 25px; margin: 20px 0;" src="./img/text.png"/></div>
-    <div style="text-align: left;margin: 20px 0;"><img src="./img/button.png" /></div>
+  <div style="height: 100vh; width: 700px; display: flex; align-items: center; justify-content: space-between;">
+    <!-- 左侧 logo 图片 -->
+    <div style="flex-shrink: 0; padding-right: 20px;">
+      <img style="width: 300px; height: 300px;" src="./img/logo.png" />
+    </div>
+
+    <!-- 右侧 text 和 button 图片 -->
+    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="margin-bottom: 20px;">
+        <img style="width: 378px; height: 71px;" src="./img/text.png"/>
+      </div>
+      <div>
+        <!-- button 图片带链接 -->
+        <a href="https://github.com/hkgood/ClipboardTranslator/releases" target="_blank">
+          <img style="width: 178px; height: 49px;" src="./img/button.png" alt="Button"/>
+        </a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
